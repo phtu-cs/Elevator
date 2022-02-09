@@ -88,3 +88,5 @@ The output will be
 > Wrong format! Please input again! (e.g. "down 9", "up 5", "to 4") Note there is no "down 1" and "up 10"
 
 [log.txt](log.txt) will log output of the program. An example is given in the repo.
+
+For more details, please refer to the comments in the code. Thank you!

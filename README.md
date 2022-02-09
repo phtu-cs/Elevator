@@ -1,4 +1,4 @@
-# Elevator
+# Elevator (by Peihan Tu)
  
 ## Usage 
 

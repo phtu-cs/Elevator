@@ -44,7 +44,11 @@ class Elevator:
 
             if len(b) == 2:
                 button = b[0]
-                floor = int(b[1])
+                if not b[1].isnumeric():
+                    self.raise_error()
+                    continue
+                else:
+                    floor = int(b[1])
 
                 if (button == "up" or button == "down" or button == "to") and (floor <= self.num_floors and floor >= 1):
 
